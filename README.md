@@ -9,19 +9,19 @@ Aerial disaster recognition for emergency response. A web app reads drone photos
 
 **Analyse photo:** class, probabilities, urgency score and the Grad-CAM view of where the model looked.
 
-![Analyse photo page](assets/01_analyse_photo.png)
+![Analyse photo page](assets/01_analyse_photo.PNG)
 
 **Survey mode:** a batch of photos from one flight, ranked by urgency.
 
-![Survey mode page](assets/02_survey_mode.png)
+![Survey mode page](assets/02_survey_mode.PNG)
 
 **Model insights:** model comparison, confusion matrix and calibration.
 
-![Model insights page](assets/03_model_insights.png)
+![Model insights page](assets/03_model_insights.PNG)
 
 **About and limits:** what the model was trained on and where it should not be trusted.
 
-![About and limits page](assets/04_about_limits.png)
+![About and limits page](assets/04_about_limits.PNG)
 
 ## Results at a glance
 
