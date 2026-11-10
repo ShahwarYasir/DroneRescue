@@ -3,18 +3,25 @@
 Aerial disaster recognition for emergency response. A web app reads drone photos taken after a disaster, labels each one
 (flood, wildfire, earthquake/collapse or normal) and ranks the photos by urgency, so rescue teams can see where to look first.
 
-## Demo video
+## Screenshots
 
-<!-- Replace this line with the video: on GitHub, edit this file in the browser and drag your .mp4 into the editor.
-     It uploads and inserts a URL on its own line, which renders as a video player. Or link a YouTube video:
-     [![DroneRescue demo](assets/demo_thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID) -->
+**Live demo:** https://dronerescue.streamlit.app/
 
-The video walks through the whole app:
+**Analyse photo:** class, probabilities, urgency score and the Grad-CAM view of where the model looked.
 
-1. **Analyse photo:** upload one aerial photo and read the predicted class, the probabilities, the urgency score and the Grad-CAM view.
-2. **Survey mode:** upload a batch of photos from one flight and see them ranked by urgency, with the CSV download and the map.
-3. **Model insights:** the model comparison table, confusion matrix, calibration plot and the most confident mistakes.
-4. **About and limits:** what the model was trained on and where it should not be trusted.
+![Analyse photo page](assets/01_analyse_photo.png)
+
+**Survey mode:** a batch of photos from one flight, ranked by urgency.
+
+![Survey mode page](assets/02_survey_mode.png)
+
+**Model insights:** model comparison, confusion matrix and calibration.
+
+![Model insights page](assets/03_model_insights.png)
+
+**About and limits:** what the model was trained on and where it should not be trusted.
+
+![About and limits page](assets/04_about_limits.png)
 
 ## Results at a glance
 
@@ -210,6 +217,7 @@ droneRescue/
 │   ├── 08_final_evaluation.py       confidence intervals, calibration, Grad-CAM, figures
 │   └── make_demo_data.py            tiny synthetic dataset for smoke tests (not real photos)
 ├── app/app.py                       the Streamlit app
+├── assets/                          screenshots used in this README
 ├── .streamlit/config.toml           dark theme
 ├── models/                          the trained MobileNetV2 model
 ├── outputs/                         plots, reports and result files
