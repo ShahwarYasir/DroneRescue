@@ -1,0 +1,5 @@
+class,d0 pass,d0 fail,d1-2 pass,d1-2 fail,d3-5 pass,d3-5 fail
+Earthquake,5,0,1,1,2,0
+Flood,13,0,7,0,6,7
+Normal,3,0,31,0,105,20
+Wildfire,64,0,282,2,518,51

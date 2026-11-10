@@ -1,0 +1,8 @@
+data/
+demo_data/
+outputs_demo/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.part
+.DS_Store

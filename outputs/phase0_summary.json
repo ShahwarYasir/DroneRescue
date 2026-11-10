@@ -1,0 +1,74 @@
+{
+  "settings": {
+    "policy": "pairwise",
+    "max_hash_distance": 5,
+    "max_thumb_diff": 12.0
+  },
+  "total_files": 16723,
+  "status_counts": {
+    "keep": 15136,
+    "dup_leak": 1347,
+    "dup_within": 133,
+    "dup_leak_test": 105,
+    "dup_conflict": 2
+  },
+  "duplicate_groups": 795,
+  "leaks": {
+    "leak_train_in_test": 854,
+    "leak_train_in_val": 803,
+    "leak_val_in_test": 105,
+    "within_test_copies": 100,
+    "test_exposed": 355
+  },
+  "test_images_with_trainval_lookalike": 355,
+  "label_conflict_images": 2,
+  "label_conflict_groups": 1,
+  "before": {
+    "Train": {
+      "Earthquake": 1927,
+      "Flood": 4063,
+      "Normal": 3900,
+      "Wildfire": 3509
+    },
+    "Val": {
+      "Earthquake": 239,
+      "Flood": 505,
+      "Normal": 487,
+      "Wildfire": 439
+    },
+    "Test": {
+      "Earthquake": 239,
+      "Flood": 502,
+      "Normal": 477,
+      "Wildfire": 436
+    }
+  },
+  "after": {
+    "Train": {
+      "Earthquake": 1886,
+      "Flood": 3970,
+      "Normal": 3704,
+      "Wildfire": 2359
+    },
+    "Val": {
+      "Earthquake": 237,
+      "Flood": 502,
+      "Normal": 477,
+      "Wildfire": 347
+    },
+    "Test": {
+      "Earthquake": 239,
+      "Flood": 502,
+      "Normal": 477,
+      "Wildfire": 436
+    }
+  },
+  "published_count_check": "matches the published table",
+  "short_side_px": {
+    "min": 224,
+    "median": 224,
+    "max": 224,
+    "share_below_224": 0.0
+  },
+  "seconds": 89.9
+}
